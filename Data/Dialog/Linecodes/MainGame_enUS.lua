@@ -1,5 +1,8 @@
 return {
-    CMAP001TEXT = { sLine = "\n ! \" # $ & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \\ ] ^ _ a b c d e f g h i j k l m n o p q r s t u v w x y z | © Ö ?", },
+   CMAP001TEXT = { sLine = "\n ! \" # $ & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \\ ] ^ _ a b c d e f g h i j k l m n o p q r s t u v w x y z | © Ö ?", },
+   --[[
+      ALERTS
+   ]]--
     ALERTS001TEXT = { sLine = "/name/ is on fire!", },
     ALERTS002TEXT = { sLine = "New citizen /name/ has joined the base.", },
     ALERTS003TEXT = { sLine = "The base is on fire!", },
@@ -42,6 +45,9 @@ return {
     ALERTS040TEXT = { sLine = "Multiple threats incoming.", },
     ALERTS041TEXT = { sLine = "A small passenger ship is approaching.", },
     ALERTS042TEXT = { sLine = "/name/ is escaping from /place/!", },
+    --[[
+       BUILDING
+    ]]--
     BUILDM001TEXT = { sLine = "WALL", },
     BUILDM002TEXT = { sLine = "Click and drag to create walls.", },
     BUILDM003TEXT = { sLine = "DOOR", },
@@ -65,11 +71,20 @@ return {
     BUILDM021TEXT = { sLine = "Vaporize", },
     BUILDM022TEXT = { sLine = "Turn the contents of the tile into space, for a partial matter refund.", },
     BUILDM023TEXT = { sLine = "Cost:", },
+    --[[
+       DEATH
+    ]]--
     DEATHX001CITZ = { sLine = "This looks like the end of the road for me...", },
+    --[[
+       MINING
+    ]]--
     DFMINE001CITZ = { sLine = "I mined the crap out of that asteroid.", },
     DFMINE002CITZ = { sLine = "The key to being a good miner is \"mind over matter\". Heh.", },
     DFMINE003CITZ = { sLine = "Builders wouldn't exist if it weren't for miners, but do they ever thank us? Nope.", },
     DFMINE004CITZ = { sLine = "I wonder if we'll ever run out of asteroids to mine...", },
+    --[[
+       DISEASE
+    ]]--
     DISEAS001TEXT = { sLine = "Space Flu", },
     DISEAS002TEXT = { sLine = "Broken Leg", },
     DISEAS003TEXT = { sLine = "Parasite", },
@@ -103,6 +118,9 @@ return {
     DISEAS031TEXT = { sLine = "Severe Injury", },
     DISEAS032TEXT = { sLine = "Unconscious", },
     DISEAS033TEXT = { sLine = "This character is unconscious, and will wake up in a little while.", },
+    --[[
+       DOCKING
+    ]]--
     DOCKUI001TEXT = { sLine = "INCOMING DOCKING REQUEST FROM:", },
     DOCKUI002TEXT = { sLine = "Starship Information Unavailable", },
     DOCKUI003TEXT = { sLine = "Greetings, Spaceb&##ase.As you can see our trasSS MISsion relay is having some issues.  Not artificially jammed.\n\nWe AR**|*E NOT P|RATES this is real. Please allow us to dock with your base. With your bountiful resources we will make a great team and you can;uk]Ahelp a stranger out. Not pirates or raiders.", },
@@ -254,6 +272,9 @@ return {
     DOCKUI149TEXT = { sLine = "We will not go quietly into the night. We will not vanish without a fight.", },
     DOCKUI150TEXT = { sLine = "I see. Don't think that acquiescence will buy you any form of mercy.", },
     DOCKUI151TEXT = { sLine = "Every attack you've suffered thus far was but a testing of your defenses. Prepare for the onslaught. You will not survive.", },
+    --[[
+       DUTIES
+    ]]--
     DUTIES001TEXT = { sLine = "Unassigned", },
     DUTIES002TEXT = { sLine = "No Primary Duty", },
     DUTIES003TEXT = { sLine = "Builder", },
@@ -275,6 +296,9 @@ return {
     DUTIES019TEXT = { sLine = "Researches Technology", },
     DUTIES020TEXT = { sLine = "Doctor", },
     DUTIES021TEXT = { sLine = "Heals Sick & Wounded", },
+    --[[
+       TASKS
+    ]]--
     EMTASK001TEXT = { sLine = "Working Out", },
     EMTASK002TEXT = { sLine = "Playing a Game", },
     EMTASK003TEXT = { sLine = "Building a Machine", },
@@ -292,10 +316,16 @@ return {
     EMTASK015TEXT = { sLine = "Introduction", },
     EMTASK016TEXT = { sLine = "Goodbye", },
     EMTASK017TEXT = { sLine = "You", },
+    --[[
+       FOODS
+    ]]--
     FOODSX001TEXT = { sLine = "Metacorn", },
     FOODSX002TEXT = { sLine = "Icky Pod", },
     FOODSX003TEXT = { sLine = "Glowfruit", },
     FOODSX004TEXT = { sLine = "Candy Cane", },
+    --[[
+       GOALS
+    ]]--
     GOALSS001TEXT = { sLine = "Bustling Metropolis", },
     GOALSS002TEXT = { sLine = "/TARGET/ Citizens in your base.", },
     GOALSS003TEXT = { sLine = "Matter-Wealthy", },
@@ -334,6 +364,9 @@ return {
     GOALSS036TEXT = { sLine = "/TARGET/ hostiles killed by turrets.", },
     GOALSS037TEXT = { sLine = "The Big One", },
     GOALSS038TEXT = { sLine = "Survive the Pirate Megafleet's final assault.", },
+    --[[
+       HINTS
+    ]]--
     HINTSX001TEXT = { sLine = "Machines in your base are in poor condition. Assign more citizens to Technician duty to maintain them.", },
     HINTSX002TEXT = { sLine = "You are low on matter. Mine asteroids or vaporize existing construction to get more.", },
     HINTSX003TEXT = { sLine = "You've designated construction but have no Builders. Use the Roster screen to assign at least one citizen to Builder duty.", },
@@ -389,6 +422,9 @@ return {
     HINTSX056TEXT = { sLine = "Since the introduction of the Power system, a 10-minute Power Holiday is in effect. Build Reactors to ensure your base's power demands are met.", },
     HINTSX057TEXT = { sLine = "A violent individual has been subdued. You can jail them until they cool off by selecting them and assigning them to a Brig zone.", },
     HINTSX058TEXT = { sLine = "You have at least one Miner and Refinery sitting idle. Give your Miners mining orders or consider reassigning them.", },
+    --[[
+       HUD
+    ]]--
     HUDHUD001TEXT = { sLine = "Last clicked:", },
     HUDHUD002TEXT = { sLine = "Matter", },
     HUDHUD003TEXT = { sLine = "O2 Capacity", },
@@ -451,6 +487,9 @@ return {
     HUDHUD060TEXT = { sLine = "Hostile Derelict", },
     HUDHUD061TEXT = { sLine = "Hostile Dock", },
     HUDHUD062TEXT = { sLine = "Disasters", },
+    --[[
+       INSPECTION
+    ]]--
     INSPEC001TEXT = { sLine = "Click on objects for more info.", },
     INSPEC002TEXT = { sLine = "CITIZEN", },
     INSPEC003TEXT = { sLine = "MORALE", },
@@ -650,6 +689,9 @@ return {
     INSPEC197TEXT = { sLine = "(Administrator use only; advise caution!)", },
     INSPEC198TEXT = { sLine = "Cancel Execution", },
     INSPEC199TEXT = { sLine = "Owner:", },
+    --[[
+       INVENTORY OBJECTS
+    ]]--
     INVOBJ001TEXT = { sLine = "Toy Ball", },
     INVOBJ002TEXT = { sLine = "Mug", },
     INVOBJ003TEXT = { sLine = "Kitty Doll", },
@@ -740,6 +782,9 @@ return {
     INVOBJ089TEXT = { sLine = "Stellar Explorer Cody, more popular among older collectors. Jet pack breaks off way too easily.", },
     INVOBJ090TEXT = { sLine = "An old long-forgotten creature preserved in stone.", },
     INVOBJ091TEXT = { sLine = "Clearly a powerful beast, standing with dignity despite his age and attire.", },
+    --[[
+       NAMES
+    ]]--
     NAMBUY001TEXT = { sLine = "Stefan Gagne", },
     NAMBUY002TEXT = { sLine = "Klink", },
     NAMBUY003TEXT = { sLine = "Brendan Sinclair", },
@@ -1104,7 +1149,10 @@ return {
     NAMESX338TEXT = { sLine = "Sstgrtz", },
     NAMESX339TEXT = { sLine = "Glmkk", },
     NAMESX340TEXT = { sLine = "Killbot", },
-    NEWBAS001TEXT = { sLine = "Select regionawegawe asf for Spacebase deployment BLAH BLAH BLAH", },
+    --[[
+       NEW BASE BUILDING
+    ]]--
+    NEWBAS001TEXT = { sLine = "Select region for Spacebase deployment", },
     NEWBAS002TEXT = { sLine = "Accept", },
     NEWBAS003TEXT = { sLine = "Decline", },
     NEWBAS004TEXT = { sLine = "ACCEPT or DECLINE region for deployment", },
@@ -1146,6 +1194,9 @@ return {
     NEWBAS040TEXT = { sLine = "Cluster", },
     NEWBAS041TEXT = { sLine = "Gravy", },
     NEWBAS042TEXT = { sLine = "TUTORIAL OUTPOST EZ-101", },
+    --[[
+       FLAVOUR TEXT
+    ]]--
     OBFLAV001TEXT = { sLine = "Gattarax-Quiblo Amalgamated Inc.\nBreathable Gas Recycler model E19/XXVIq\n\nIMPORTANT NOTICE FOR OUR OXYGEN-BREATHING CUSTOMERS: The factory default for this unit is tailored for our homeworld customers, which may not be desired.  Please set Toggle Switch CRN-114 from GREEN to BLUE before first power-on to ensure the unit recycles OXYGEN instead of METHANE.  Also please note that doing so voids this model's warranty.\n\nWe apologize for any inconvenience?!", },
     OBFLAV002TEXT = { sLine = "Gattarax-Quiblo Amalgamated Inc.\nBreathable Gas Recycler model E19/XXVIq\n\nOWNER'S MANUAL ERRATA\n\nItem 3C: Customers who install off-brand coolant tanks to increase unit output should be advised that this unit's nanofactories may interact harmfully with most halocarbon-based forms of coolant, the effects of which include but are not limited to: base interior smells like pizza, base interior smells like decomposing crabs, planet-engulfing \"grey goo\" scenario, marshmallow-like residue forms around unit that is fatal if swallowed, et cetera.\n\nWe apologize for any inconvenience?!", },
     OBFLAV003TEXT = { sLine = "Gattarax-Quiblo Amalgamated Inc.\nSmelRite? Aerosol Nanoscrubber model F20\n\nThis unit's reprogrammable ROM colloids (RRCs) will detect and neutralize most harmful pathogens.  Molecular signature updates can be downloaded for a modest monthly subscription fee - beam 990820051.Q for more information.\n\nWhile this unit's RRCs can be reconfigured to trim body hair, beards, and even some mustaches, please note that doing so voids the unit's warranty and can produce medical side effects including but not limited to: dry sweats, wet sweats, mixed sweats, permanent personality alteration, et cetera.\n\nWe apologize for any inconvenience?!", },
@@ -1182,8 +1233,14 @@ return {
     OBFLAV034TEXT = { sLine = "DIRT-KNAP?\n\nThe cheap n' biodegradable substrate for plant culture in deep space environments!  Grows the most delightful mushrooms in certain spectra of nebula. No spores! Scientists still puzzled. Current research outside the scope of this product label.", },
     OBFLAV035TEXT = { sLine = "ConFoodCo Food Preparation Unit, Galaxy-C3 Model\n\nEstimated Collector's Value: $2000 (Imperial Dollars)\n\nOriginally a brand extension of ConFoodCo's \"Cookin' 4 Kids\" toy line, this model's signature feature propelled it to unexpected mega-popularity: it forms all foods cooked within into the iconic \"chicken dinner\" shape that became the company's logo within the century.", },
     OBFLAV036TEXT = { sLine = "MORLA (4 pcs) - Assembly Instructions:\n\n9. Transmission authorize: \"DARK WIZARD BEYOND TIME / HE SHOWS YOU WONDERS\"\n\n12. I am the one who writes all these instruction labels. I am being kept here against my will.\n\n76. Please send help. Factory hiveworld near rim of Wah-toh-Gua space. Landing coordinates encrypted in instructions for FONHGE model smoothie maker. Hurry.", },
+    --[[
+       ?
+    ]]--
     OBJCTX001TEXT = { sLine = "Breach Ship", },
     OBJCTX002TEXT = { sLine = "Spaceship custom-fitted for boarding bases and other ships.", },
+    --[[
+       OXYGEN TEXTS
+    ]]--
     OXYGEN001CITZ = { sLine = "I can't breathe!", },
     OXYGEN002CITZ = { sLine = "The oxygen's getting pretty low in this part of the base.", },
     OXYGEN003CITZ = { sLine = "Air again! I thought I was going to die!", },
@@ -1213,6 +1270,9 @@ return {
     OXYGEN027CITZ = { sLine = "So this is what no oxygen feels like? I don't like it. Turn it back on!", },
     OXYGEN028CITZ = { sLine = "I think I like oxygen better than no oxygen after getting to try them both out.", },
     OXYGEN029CITZ = { sLine = "I used to think my favorite element was gold, but I think I'm going to change that to oxygen.", },
+    --[[
+       CHARACTER DESCRIPTIONS
+    ]]--
     PERSON001TEXT = { sLine = "Brave", },
     PERSON002TEXT = { sLine = "Gregarious", },
     PERSON003TEXT = { sLine = "Chatty", },
@@ -1241,6 +1301,9 @@ return {
     PERSON026TEXT = { sLine = "", },
     PERSON027TEXT = { sLine = "Authoritarian", },
     PERSON028TEXT = { sLine = "Rebellious", },
+    --[[
+       PROPS TEXTS
+    ]]--
     PROPSX001TEXT = { sLine = "Fire Extinguisher", },
     PROPSX002TEXT = { sLine = "Enables citizens to put out fires.", },
     PROPSX003TEXT = { sLine = "Monitor", },
@@ -1340,6 +1403,9 @@ return {
     PROPSX097TEXT = { sLine = "Harnesses barely comprehensible forces to provide power for your toaster oven.", },
     PROPSX098TEXT = { sLine = "Residence Assignment:", },
     PROPSX099TEXT = { sLine = "Brig Assignment:", },
+    --[[
+       RESEARCH
+    ]]--
     RESRCH001TEXT = { sLine = "Widebeam Vaporization Ray", },
     RESRCH002TEXT = { sLine = "Equips all builders with a much more powerful vaporization tool.", },
     RESRCH003TEXT = { sLine = "Phazer Rifle", },
@@ -1363,6 +1429,9 @@ return {
     RSCHUI005TEXT = { sLine = "Tech", },
     RSCHUI006TEXT = { sLine = "Diseases", },
     RSCHUI007TEXT = { sLine = "Researched", },
+    --[[
+       
+    ]]--
     SFBART001CITZ = { sLine = "Yep, this is my life. Pouring another first-rate /RANDOMDRINKNAME/ for some shlub who won't appreciate it.", tTags = { "bored", "egoist", "gourmand", "hatesjob", },},
     SFBART002CITZ = { sLine = "I love it when people seem to enjoy the drinks I pour. It's nice to bring some happiness into the world.", tTags = { "lovesjob", "optimist", },},
     SFBART003CITZ = { sLine = "I've poured a lot of /RANDOMDRINKNAME/ today.  I gotta stock up on limes, bitters, maybe some more space-gin.", },
