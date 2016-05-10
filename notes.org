@@ -1,0 +1,66 @@
+* Spacebase DF-9 Source Code Notes
+** Common
+*** DFCommon
+**** Analytics
+Analytics has an example of MOAI's HTTPTask transmission and receiving. Could be useful for linking to node
+** Dialog
+*** MainGame_enUS.lua
+Is initialised in Scripts/Main.lua
+Holds all the text content of the game
+** Moai
+** Modules
+** Scripts
+*** Base
+*** Character
+init faction
+update room
+tick maladies
+convert to raider
+test survival threats
+reduce needs
+get faction behaviour
+deal with being in prison
+update object affinities
+tick morale
+!! tick graph ?
+tick room morale?
+store memories
+tick oxygen timer
+tick hunger
+tick health
+tick fire damage
+tick job experience
+update current task
+tick duty
+
+*** Character Constants
+*** CharacterManager
+update job counts
+init AI
+update AI
+update animation
+select task
+death tick
+*** DialogSets
+*** GameRules
+**** onTick Method
+***** EventController
+***** Oxygen
+***** Fire
+***** Projectile
+***** AnimatedSprite
+***** Room
+***** EnObject
+***** Turret
+***** World
+***** Lighting
+***** CharacterManager
+
+***** WorldObject
+***** Base
+***** CommandObject
+***** ParticleSystemManager
+***** Hint
+***** Goal
+
+** UILayouts
